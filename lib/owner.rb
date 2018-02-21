@@ -40,4 +40,6 @@ class Owner
     dog = Dog.new(pet)
     @pets[:dogs] << dog
   end
+
+  def walk_dogs
 end
